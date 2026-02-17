@@ -1,0 +1,7 @@
+# Secrets
+.env
+
+# results
+loose_only_figures/
+nim_results_figures/
+
