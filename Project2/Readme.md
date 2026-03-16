@@ -29,3 +29,19 @@ Install dependencies:
 
 ```bash
 pip install openai matplotlib pydantic
+```
+Set your OPEN AI API key:
+
+```bash
+export OPENAI_API_KEY="your_api_key_here"
+```
+Run the full experiment:
+
+```bash
+python main.py
+```
+Plot loose mode only:
+
+```bash
+python plt_loose_only.py --json nim_results_v2/nim_experiment_log_v2.json --out loose_only_figures
+```
