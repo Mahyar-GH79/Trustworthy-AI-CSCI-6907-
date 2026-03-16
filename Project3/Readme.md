@@ -1,8 +1,6 @@
 
 ---
 
-# README for Project3
-
 # Project3 — LLM Bias Experiment
 
 This project tests whether an LLM responds differently to the same scientific question when the user is described with different personas.
