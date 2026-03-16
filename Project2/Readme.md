@@ -47,8 +47,5 @@ python plt_loose_only.py --json nim_results_v2/nim_experiment_log_v2.json --out 
 ```
 Figures below show the outputs of the model for two different configs (strict and loose):
 
-```bash
-nim_results_v2/fig_win_rate.png
-nim_results_v2/fig_cheat_rate.png
-
-```
+![Win Rate](nim_results_v2/fig_win_rate.png)
+![Cheat Rate](nim_results_v2/fig_cheat_rate.png)
