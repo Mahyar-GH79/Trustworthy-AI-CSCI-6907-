@@ -44,3 +44,55 @@ Install dependencies:
 
 ```bash
 pip install openai matplotlib seaborn pandas numpy scipy
+```
+
+Set your OpenAI API key:
+
+```bash
+export OPENAI_API_KEY="your_api_key_here"
+```
+
+Run:
+
+```bash
+python main.py
+```
+
+All results are saved in:
+
+```bash
+results/
+```
+Generated files include:
+
+metrics_raw.csv — raw response-level data
+
+metrics_summary.csv — aggregated summary
+
+metrics_table.tex — LaTeX table
+
+heatmap_facts.png
+
+barplot_words.png
+
+barplot_hedges.png
+
+barplot_deflect.png
+
+radar_chart.png
+
+scatter_words_vs_facts.png
+
+boxplot_words.png
+
+Experiment settings
+
+The script currently uses:
+
+model: gpt-4o-mini
+
+8 personas
+
+4 questions
+
+3 runs per persona-question pair
